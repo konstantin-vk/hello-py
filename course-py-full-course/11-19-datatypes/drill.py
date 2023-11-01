@@ -40,3 +40,17 @@ print (bool(1>2))
 
 print ("TYPE CONVERSION")
 
+
+print ("LIST")
+users = [
+    {
+        'name':"My Name",
+        'id' : 1
+    },
+    {
+        'name':'The Name',
+        'id': 2
+
+    }
+]
+print (users[1]['name'])
